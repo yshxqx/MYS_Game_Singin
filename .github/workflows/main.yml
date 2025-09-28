@@ -23,5 +23,5 @@ jobs:
 
     - name: Run main.js
       env:
-        GENSHIN_COOKIES: ${{ secrets.GENSHIN_COOKIES }}
+        MYS_COOKIES: ${{ secrets.MYS_COOKIES }}
       run: node main.js
